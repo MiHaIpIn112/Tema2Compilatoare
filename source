@@ -1,0 +1,4 @@
+yacc -d tema2.y
+lex tema2.l
+gcc lex.yy.c y.tab.c -o tema2 -lfl
+./tema2 < in.txt
