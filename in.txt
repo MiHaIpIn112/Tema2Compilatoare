@@ -1,11 +1,6 @@
 PROGRAM sad
-
  VAR
-
 a1:INTEGER
-
 BEGIN
-
 a1:=10
-
 END
